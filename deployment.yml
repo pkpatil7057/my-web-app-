@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: web-app-container
-        image: your-web-app:latest
+        image: pkpatil7057/my-web-app-:xyz
         ports:
         - containerPort: 80
