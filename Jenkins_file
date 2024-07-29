@@ -51,7 +51,7 @@ pipeline {
             sh 'docker login -u pkpatil7057 -p ${dockerhub}'
 			
 			 }
-			   sh 'docker push pkpatil7057/my-web-app-:${BUILD_NUMBER}'
+			   sh 'docker push pkpatil7057/my-web-app:${BUILD_NUMBER}'
 	       }
 				
             }
