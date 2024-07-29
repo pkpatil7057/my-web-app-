@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: web-app-container
-        image: pkpatil7057/my-web-app-:xyz
+        image: pkpatil7057/myfirstrepo:12
         ports:
         - containerPort: 80
